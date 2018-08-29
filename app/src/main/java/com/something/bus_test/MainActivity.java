@@ -31,7 +31,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.view.ViewGroup.LayoutParams;
-
 public class MainActivity extends AppCompatActivity {
     Document Doc;
     ListView listview ;
@@ -49,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_main);
         listview = (ListView) findViewById(R.id.listview1);
         adapter = (ListViewAdapter)new ListViewAdapter() ;
